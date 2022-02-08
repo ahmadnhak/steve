@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "stevefabric",
+  "version": "1.0.0",
+  "name": "steveFabric",
+  "authors": [
+    "Ahmad, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": "https://github.com/ClothCreators/Fabric-Generator-MCreator"
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.stevefabric.StevefabricMod"
+    ],
+    "client": [
+      "net.mcreator.stevefabric.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*"
+  }
+}
